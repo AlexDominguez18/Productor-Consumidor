@@ -8,7 +8,7 @@ namespace ProductorConsumidor
 {
     static class Constants
     {
-        public const int CONTAINER_SIZE = 20;
+        public const int CONTAINER_SIZE = 35;
         public const int SLEEPING = 0;
         public const int WORKING = 1;
         public const int TRYING = 2;

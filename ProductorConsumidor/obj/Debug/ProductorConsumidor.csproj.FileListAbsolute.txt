@@ -8,3 +8,14 @@ C:\Users\Best Buy\Documents\Visual Studio 2019\ProductorConsumidor\ProductorCons
 C:\Users\Best Buy\Documents\Visual Studio 2019\ProductorConsumidor\ProductorConsumidor\obj\Debug\ProductorConsumidor.csproj.CoreCompileInputs.cache
 C:\Users\Best Buy\Documents\Visual Studio 2019\ProductorConsumidor\ProductorConsumidor\obj\Debug\ProductorConsumidor.exe
 C:\Users\Best Buy\Documents\Visual Studio 2019\ProductorConsumidor\ProductorConsumidor\obj\Debug\ProductorConsumidor.pdb
+C:\Users\sistemasp\Desktop\Alan\Proyecto USB\Seminario Operativos\Producto-consumidor\Productor-Consumidor\ProductorConsumidor\obj\Debug\ProductorConsumidor.exe
+C:\Users\sistemasp\Desktop\Alan\Proyecto USB\Seminario Operativos\Producto-consumidor\Productor-Consumidor\ProductorConsumidor\obj\Debug\ProductorConsumidor.pdb
+C:\Users\sistemasp\Desktop\Alan\Proyecto USB\Seminario Operativos\Producto-consumidor\Productor-Consumidor\ProductorConsumidor\bin\Debug\ProductorConsumidor.exe.config
+C:\Users\sistemasp\Desktop\Alan\Proyecto USB\Seminario Operativos\Producto-consumidor\Productor-Consumidor\ProductorConsumidor\bin\Debug\ProductorConsumidor.exe
+C:\Users\sistemasp\Desktop\Alan\Proyecto USB\Seminario Operativos\Producto-consumidor\Productor-Consumidor\ProductorConsumidor\bin\Debug\ProductorConsumidor.pdb
+C:\Users\sistemasp\Desktop\Alan\Proyecto USB\Seminario Operativos\Producto-consumidor\Productor-Consumidor\ProductorConsumidor\obj\Debug\ProductorConsumidor.csproj.AssemblyReference.cache
+C:\Users\sistemasp\Desktop\Alan\Proyecto USB\Seminario Operativos\Producto-consumidor\Productor-Consumidor\ProductorConsumidor\obj\Debug\ProductorConsumidor.csproj.SuggestedBindingRedirects.cache
+C:\Users\sistemasp\Desktop\Alan\Proyecto USB\Seminario Operativos\Producto-consumidor\Productor-Consumidor\ProductorConsumidor\obj\Debug\ProductorConsumidor.Form1.resources
+C:\Users\sistemasp\Desktop\Alan\Proyecto USB\Seminario Operativos\Producto-consumidor\Productor-Consumidor\ProductorConsumidor\obj\Debug\ProductorConsumidor.Properties.Resources.resources
+C:\Users\sistemasp\Desktop\Alan\Proyecto USB\Seminario Operativos\Producto-consumidor\Productor-Consumidor\ProductorConsumidor\obj\Debug\ProductorConsumidor.csproj.GenerateResource.cache
+C:\Users\sistemasp\Desktop\Alan\Proyecto USB\Seminario Operativos\Producto-consumidor\Productor-Consumidor\ProductorConsumidor\obj\Debug\ProductorConsumidor.csproj.CoreCompileInputs.cache

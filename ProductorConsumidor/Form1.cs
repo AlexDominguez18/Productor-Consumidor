@@ -61,7 +61,9 @@ namespace ProductorConsumidor
 
         public void SetImage(int index, int turn)
         {
-            Bitmap bmp = new Bitmap("..\\..\\fullDonnut.png");
+            //Bitmap bmp = new Bitmap("..\\..\\fullDonnut.png");
+            Bitmap bmp = new Bitmap("..\\..\\cachetada.png");
+
             PictureBox pb = new PictureBox();
 
             switch (index)
@@ -86,6 +88,21 @@ namespace ProductorConsumidor
                 case 17: pb = pictureBox18; break;
                 case 18: pb = pictureBox19; break;
                 case 19: pb = pictureBox20; break;
+                case 20: pb = pictureBox21; break;
+                case 21: pb = pictureBox22; break;
+                case 22: pb = pictureBox23; break;
+                case 23: pb = pictureBox24; break;
+                case 24: pb = pictureBox25; break;
+                case 25: pb = pictureBox26; break;
+                case 26: pb = pictureBox27; break;
+                case 27: pb = pictureBox28; break;
+                case 28: pb = pictureBox29; break;
+                case 29: pb = pictureBox30; break;
+                case 30: pb = pictureBox31; break;
+                case 31: pb = pictureBox32; break;
+                case 32: pb = pictureBox33; break;
+                case 33: pb = pictureBox34; break;
+                case 34: pb = pictureBox35; break;
             }
 
             if (turn == Constants.PRODUCER_TURN)

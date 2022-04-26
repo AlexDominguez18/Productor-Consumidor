@@ -54,6 +54,10 @@ namespace ProductorConsumidor
             this.pictureBox18 = new System.Windows.Forms.PictureBox();
             this.pictureBox19 = new System.Windows.Forms.PictureBox();
             this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.containerLB = new System.Windows.Forms.Label();
+            this.startBT = new System.Windows.Forms.Button();
+            this.producerState = new System.Windows.Forms.Label();
+            this.consumerState = new System.Windows.Forms.Label();
             this.pictureBox21 = new System.Windows.Forms.PictureBox();
             this.pictureBox22 = new System.Windows.Forms.PictureBox();
             this.pictureBox23 = new System.Windows.Forms.PictureBox();
@@ -69,11 +73,6 @@ namespace ProductorConsumidor
             this.pictureBox33 = new System.Windows.Forms.PictureBox();
             this.pictureBox34 = new System.Windows.Forms.PictureBox();
             this.pictureBox35 = new System.Windows.Forms.PictureBox();
-
-            this.containerLB = new System.Windows.Forms.Label();
-            this.startBT = new System.Windows.Forms.Button();
-            this.producerState = new System.Windows.Forms.Label();
-            this.consumerState = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.producerPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.consumerPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
@@ -111,8 +110,6 @@ namespace ProductorConsumidor
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).BeginInit();
-
-
             this.SuspendLayout();
             // 
             // producerPB
@@ -121,7 +118,7 @@ namespace ProductorConsumidor
             this.producerPB.InitialImage = null;
             this.producerPB.Location = new System.Drawing.Point(12, 31);
             this.producerPB.Name = "producerPB";
-            this.producerPB.Size = new System.Drawing.Size(166, 140);
+            this.producerPB.Size = new System.Drawing.Size(199, 180);
             this.producerPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.producerPB.TabIndex = 0;
             this.producerPB.TabStop = false;
@@ -129,16 +126,16 @@ namespace ProductorConsumidor
             // consumerPB
             // 
             this.consumerPB.Image = ((System.Drawing.Image)(resources.GetObject("consumerPB.Image")));
-            this.consumerPB.Location = new System.Drawing.Point(619, 31);
+            this.consumerPB.Location = new System.Drawing.Point(571, 31);
             this.consumerPB.Name = "consumerPB";
-            this.consumerPB.Size = new System.Drawing.Size(166, 140);
+            this.consumerPB.Size = new System.Drawing.Size(214, 180);
             this.consumerPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.consumerPB.TabIndex = 1;
             this.consumerPB.TabStop = false;
             // 
             // producerLB
             // 
-            this.producerLB.Font = new System.Drawing.Font("Ubuntu Mono", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.producerLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.producerLB.Location = new System.Drawing.Point(12, 9);
             this.producerLB.Name = "producerLB";
             this.producerLB.Size = new System.Drawing.Size(166, 19);
@@ -148,7 +145,7 @@ namespace ProductorConsumidor
             // 
             // consumerLB
             // 
-            this.consumerLB.Font = new System.Drawing.Font("Ubuntu Mono", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.consumerLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.consumerLB.Location = new System.Drawing.Point(619, 9);
             this.consumerLB.Name = "consumerLB";
             this.consumerLB.Size = new System.Drawing.Size(166, 19);
@@ -353,162 +350,12 @@ namespace ProductorConsumidor
             this.pictureBox20.Name = "pictureBox20";
             this.pictureBox20.Size = new System.Drawing.Size(71, 68);
             this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox20.TabIndex = 24;
-            this.pictureBox20.TabStop = false;
-            // 
-            // pictureBox21
-            // 
-            this.pictureBox20.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.pictureBox20.Location = new System.Drawing.Point(787, 400);
-            this.pictureBox20.Name = "pictureBox21";
-            this.pictureBox20.Size = new System.Drawing.Size(71, 68);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox20.TabIndex = 34;
-            this.pictureBox20.TabStop = false;
-            // 
-            // pictureBox22
-            // 
-            this.pictureBox20.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.pictureBox20.Location = new System.Drawing.Point(710, 456);
-            this.pictureBox20.Name = "pictureBox22";
-            this.pictureBox20.Size = new System.Drawing.Size(71, 68);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox20.TabIndex = 35;
-            this.pictureBox20.TabStop = false;
-            // 
-            // pictureBox23
-            // 
-            this.pictureBox20.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.pictureBox20.Location = new System.Drawing.Point(710, 456);
-            this.pictureBox20.Name = "pictureBox23";
-            this.pictureBox20.Size = new System.Drawing.Size(71, 68);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox20.TabIndex = 36;
-            this.pictureBox20.TabStop = false;
-            // 
-            // pictureBox24
-            // 
-            this.pictureBox20.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.pictureBox20.Location = new System.Drawing.Point(710, 456);
-            this.pictureBox20.Name = "pictureBox24";
-            this.pictureBox20.Size = new System.Drawing.Size(71, 68);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox20.TabIndex = 37;
-            this.pictureBox20.TabStop = false;
-            // 
-            // pictureBox25
-            // 
-            this.pictureBox20.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.pictureBox20.Location = new System.Drawing.Point(710, 456);
-            this.pictureBox20.Name = "pictureBox25";
-            this.pictureBox20.Size = new System.Drawing.Size(71, 68);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox20.TabIndex = 38;
-            this.pictureBox20.TabStop = false;
-            // 
-            // pictureBox26
-            // 
-            this.pictureBox20.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.pictureBox20.Location = new System.Drawing.Point(710, 456);
-            this.pictureBox20.Name = "pictureBox26";
-            this.pictureBox20.Size = new System.Drawing.Size(71, 68);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox20.TabIndex = 39;
-            this.pictureBox20.TabStop = false;
-            // 
-            // pictureBox27
-            // 
-            this.pictureBox20.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.pictureBox20.Location = new System.Drawing.Point(710, 456);
-            this.pictureBox20.Name = "pictureBox27";
-            this.pictureBox20.Size = new System.Drawing.Size(71, 68);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox20.TabIndex = 40;
-            this.pictureBox20.TabStop = false;
-            // 
-            // pictureBox28
-            // 
-            this.pictureBox20.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.pictureBox20.Location = new System.Drawing.Point(710, 456);
-            this.pictureBox20.Name = "pictureBox28";
-            this.pictureBox20.Size = new System.Drawing.Size(71, 68);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox20.TabIndex = 41;
-            this.pictureBox20.TabStop = false;
-            // 
-            // pictureBox29
-            // 
-            this.pictureBox20.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.pictureBox20.Location = new System.Drawing.Point(710, 456);
-            this.pictureBox20.Name = "pictureBox29";
-            this.pictureBox20.Size = new System.Drawing.Size(71, 68);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox20.TabIndex = 42;
-            this.pictureBox20.TabStop = false;
-            // 
-            // pictureBox30
-            // 
-            this.pictureBox20.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.pictureBox20.Location = new System.Drawing.Point(710, 456);
-            this.pictureBox20.Name = "pictureBox30";
-            this.pictureBox20.Size = new System.Drawing.Size(71, 68);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox20.TabIndex = 43;
-            this.pictureBox20.TabStop = false;
-            // 
-            // pictureBox31
-            // 
-            this.pictureBox20.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.pictureBox20.Location = new System.Drawing.Point(710, 541);
-            this.pictureBox20.Name = "pictureBox31";
-            this.pictureBox20.Size = new System.Drawing.Size(71, 68);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox20.TabIndex = 44;
-            this.pictureBox20.TabStop = false;
-            // 
-            // pictureBox32
-            // 
-            this.pictureBox20.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.pictureBox20.Location = new System.Drawing.Point(710, 541);
-            this.pictureBox20.Name = "pictureBox32";
-            this.pictureBox20.Size = new System.Drawing.Size(71, 68);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox20.TabIndex = 45;
-            this.pictureBox20.TabStop = false;
-            // 
-            // pictureBox33
-            // 
-            this.pictureBox20.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.pictureBox20.Location = new System.Drawing.Point(710, 541);
-            this.pictureBox20.Name = "pictureBox33";
-            this.pictureBox20.Size = new System.Drawing.Size(71, 68);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox20.TabIndex = 46;
-            this.pictureBox20.TabStop = false;
-            // 
-            // pictureBox34
-            // 
-            this.pictureBox20.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.pictureBox20.Location = new System.Drawing.Point(710, 541);
-            this.pictureBox20.Name = "pictureBox34";
-            this.pictureBox20.Size = new System.Drawing.Size(71, 68);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox20.TabIndex = 47;
-            this.pictureBox20.TabStop = false;
-            // 
-            // pictureBox35
-            // 
-            this.pictureBox20.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.pictureBox20.Location = new System.Drawing.Point(710, 541);
-            this.pictureBox20.Name = "pictureBox35";
-            this.pictureBox20.Size = new System.Drawing.Size(71, 68);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox20.TabIndex = 48;
             this.pictureBox20.TabStop = false;
             // 
             // containerLB
             // 
-            this.containerLB.Font = new System.Drawing.Font("Ubuntu Mono", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.containerLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.containerLB.Location = new System.Drawing.Point(17, 251);
             this.containerLB.Name = "containerLB";
             this.containerLB.Size = new System.Drawing.Size(768, 20);
@@ -520,11 +367,11 @@ namespace ProductorConsumidor
             // 
             this.startBT.BackColor = System.Drawing.Color.Green;
             this.startBT.CausesValidation = false;
-            this.startBT.Font = new System.Drawing.Font("Ubuntu Mono", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.startBT.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.startBT.ForeColor = System.Drawing.SystemColors.Control;
-            this.startBT.Location = new System.Drawing.Point(357, 31);
+            this.startBT.Location = new System.Drawing.Point(339, 31);
             this.startBT.Name = "startBT";
-            this.startBT.Size = new System.Drawing.Size(116, 63);
+            this.startBT.Size = new System.Drawing.Size(134, 63);
             this.startBT.TabIndex = 50;
             this.startBT.Text = "¡EMPEZAR!";
             this.startBT.UseVisualStyleBackColor = false;
@@ -532,28 +379,193 @@ namespace ProductorConsumidor
             // 
             // producerState
             // 
-            this.producerState.Font = new System.Drawing.Font("Ubuntu Mono", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.producerState.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.producerState.ForeColor = System.Drawing.Color.White;
-            this.producerState.Location = new System.Drawing.Point(13, 178);
+            this.producerState.Location = new System.Drawing.Point(26, 218);
             this.producerState.Name = "producerState";
             this.producerState.Size = new System.Drawing.Size(165, 33);
             this.producerState.TabIndex = 51;
             // 
             // consumerState
             // 
-            this.consumerState.Font = new System.Drawing.Font("Ubuntu Mono", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.consumerState.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.consumerState.ForeColor = System.Drawing.Color.White;
-            this.consumerState.Location = new System.Drawing.Point(620, 178);
+            this.consumerState.Location = new System.Drawing.Point(595, 218);
             this.consumerState.Name = "consumerState";
             this.consumerState.Size = new System.Drawing.Size(165, 33);
             this.consumerState.TabIndex = 52;
+            // 
+            // pictureBox21
+            // 
+            this.pictureBox21.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.pictureBox21.Location = new System.Drawing.Point(16, 456);
+            this.pictureBox21.Name = "pictureBox21";
+            this.pictureBox21.Size = new System.Drawing.Size(71, 68);
+            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox21.TabIndex = 68;
+            this.pictureBox21.TabStop = false;
+            // 
+            // pictureBox22
+            // 
+            this.pictureBox22.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.pictureBox22.Location = new System.Drawing.Point(94, 456);
+            this.pictureBox22.Name = "pictureBox22";
+            this.pictureBox22.Size = new System.Drawing.Size(71, 68);
+            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox22.TabIndex = 69;
+            this.pictureBox22.TabStop = false;
+            // 
+            // pictureBox23
+            // 
+            this.pictureBox23.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.pictureBox23.Location = new System.Drawing.Point(171, 456);
+            this.pictureBox23.Name = "pictureBox23";
+            this.pictureBox23.Size = new System.Drawing.Size(71, 68);
+            this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox23.TabIndex = 70;
+            this.pictureBox23.TabStop = false;
+            // 
+            // pictureBox24
+            // 
+            this.pictureBox24.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.pictureBox24.Location = new System.Drawing.Point(248, 456);
+            this.pictureBox24.Name = "pictureBox24";
+            this.pictureBox24.Size = new System.Drawing.Size(71, 68);
+            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox24.TabIndex = 71;
+            this.pictureBox24.TabStop = false;
+            // 
+            // pictureBox25
+            // 
+            this.pictureBox25.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.pictureBox25.Location = new System.Drawing.Point(325, 456);
+            this.pictureBox25.Name = "pictureBox25";
+            this.pictureBox25.Size = new System.Drawing.Size(71, 68);
+            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox25.TabIndex = 72;
+            this.pictureBox25.TabStop = false;
+            // 
+            // pictureBox26
+            // 
+            this.pictureBox26.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.pictureBox26.Location = new System.Drawing.Point(402, 456);
+            this.pictureBox26.Name = "pictureBox26";
+            this.pictureBox26.Size = new System.Drawing.Size(71, 68);
+            this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox26.TabIndex = 73;
+            this.pictureBox26.TabStop = false;
+            // 
+            // pictureBox27
+            // 
+            this.pictureBox27.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.pictureBox27.Location = new System.Drawing.Point(479, 456);
+            this.pictureBox27.Name = "pictureBox27";
+            this.pictureBox27.Size = new System.Drawing.Size(71, 68);
+            this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox27.TabIndex = 74;
+            this.pictureBox27.TabStop = false;
+            // 
+            // pictureBox28
+            // 
+            this.pictureBox28.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.pictureBox28.Location = new System.Drawing.Point(556, 456);
+            this.pictureBox28.Name = "pictureBox28";
+            this.pictureBox28.Size = new System.Drawing.Size(71, 68);
+            this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox28.TabIndex = 75;
+            this.pictureBox28.TabStop = false;
+            // 
+            // pictureBox29
+            // 
+            this.pictureBox29.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.pictureBox29.Location = new System.Drawing.Point(633, 456);
+            this.pictureBox29.Name = "pictureBox29";
+            this.pictureBox29.Size = new System.Drawing.Size(71, 68);
+            this.pictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox29.TabIndex = 76;
+            this.pictureBox29.TabStop = false;
+            // 
+            // pictureBox30
+            // 
+            this.pictureBox30.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.pictureBox30.Location = new System.Drawing.Point(714, 456);
+            this.pictureBox30.Name = "pictureBox30";
+            this.pictureBox30.Size = new System.Drawing.Size(71, 68);
+            this.pictureBox30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox30.TabIndex = 77;
+            this.pictureBox30.TabStop = false;
+            // 
+            // pictureBox31
+            // 
+            this.pictureBox31.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.pictureBox31.Location = new System.Drawing.Point(201, 535);
+            this.pictureBox31.Name = "pictureBox31";
+            this.pictureBox31.Size = new System.Drawing.Size(71, 68);
+            this.pictureBox31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox31.TabIndex = 78;
+            this.pictureBox31.TabStop = false;
+            // 
+            // pictureBox32
+            // 
+            this.pictureBox32.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.pictureBox32.Location = new System.Drawing.Point(278, 535);
+            this.pictureBox32.Name = "pictureBox32";
+            this.pictureBox32.Size = new System.Drawing.Size(71, 68);
+            this.pictureBox32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox32.TabIndex = 79;
+            this.pictureBox32.TabStop = false;
+            // 
+            // pictureBox33
+            // 
+            this.pictureBox33.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.pictureBox33.Location = new System.Drawing.Point(355, 535);
+            this.pictureBox33.Name = "pictureBox33";
+            this.pictureBox33.Size = new System.Drawing.Size(71, 68);
+            this.pictureBox33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox33.TabIndex = 80;
+            this.pictureBox33.TabStop = false;
+            // 
+            // pictureBox34
+            // 
+            this.pictureBox34.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.pictureBox34.Location = new System.Drawing.Point(432, 535);
+            this.pictureBox34.Name = "pictureBox34";
+            this.pictureBox34.Size = new System.Drawing.Size(71, 68);
+            this.pictureBox34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox34.TabIndex = 81;
+            this.pictureBox34.TabStop = false;
+            // 
+            // pictureBox35
+            // 
+            this.pictureBox35.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.pictureBox35.Location = new System.Drawing.Point(509, 535);
+            this.pictureBox35.Name = "pictureBox35";
+            this.pictureBox35.Size = new System.Drawing.Size(71, 68);
+            this.pictureBox35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox35.TabIndex = 82;
+            this.pictureBox35.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.SystemColors.InfoText;
+            this.ClientSize = new System.Drawing.Size(798, 615);
+            this.Controls.Add(this.pictureBox35);
+            this.Controls.Add(this.pictureBox34);
+            this.Controls.Add(this.pictureBox33);
+            this.Controls.Add(this.pictureBox32);
+            this.Controls.Add(this.pictureBox31);
+            this.Controls.Add(this.pictureBox30);
+            this.Controls.Add(this.pictureBox29);
+            this.Controls.Add(this.pictureBox28);
+            this.Controls.Add(this.pictureBox27);
+            this.Controls.Add(this.pictureBox26);
+            this.Controls.Add(this.pictureBox25);
+            this.Controls.Add(this.pictureBox24);
+            this.Controls.Add(this.pictureBox23);
+            this.Controls.Add(this.pictureBox22);
+            this.Controls.Add(this.pictureBox21);
             this.Controls.Add(this.consumerState);
             this.Controls.Add(this.producerState);
             this.Controls.Add(this.startBT);
@@ -568,21 +580,6 @@ namespace ProductorConsumidor
             this.Controls.Add(this.pictureBox18);
             this.Controls.Add(this.pictureBox19);
             this.Controls.Add(this.pictureBox20);
-            this.Controls.Add(this.pictureBox21);
-            this.Controls.Add(this.pictureBox22);
-            this.Controls.Add(this.pictureBox23);
-            this.Controls.Add(this.pictureBox24);
-            this.Controls.Add(this.pictureBox25);
-            this.Controls.Add(this.pictureBox26);
-            this.Controls.Add(this.pictureBox27);
-            this.Controls.Add(this.pictureBox28);
-            this.Controls.Add(this.pictureBox29);
-            this.Controls.Add(this.pictureBox30);
-            this.Controls.Add(this.pictureBox31);
-            this.Controls.Add(this.pictureBox32);
-            this.Controls.Add(this.pictureBox33);
-            this.Controls.Add(this.pictureBox34);
-            this.Controls.Add(this.pictureBox35);
             this.Controls.Add(this.pictureBox10);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.pictureBox8);
@@ -593,8 +590,6 @@ namespace ProductorConsumidor
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-
-
             this.Controls.Add(this.consumerLB);
             this.Controls.Add(this.producerLB);
             this.Controls.Add(this.consumerPB);
@@ -639,7 +634,6 @@ namespace ProductorConsumidor
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).EndInit();
-
             this.ResumeLayout(false);
 
         }
@@ -670,6 +664,11 @@ namespace ProductorConsumidor
         private System.Windows.Forms.PictureBox pictureBox18;
         private System.Windows.Forms.PictureBox pictureBox19;
         private System.Windows.Forms.PictureBox pictureBox20;
+
+        private System.Windows.Forms.Label containerLB;
+        private System.Windows.Forms.Button startBT;
+        private System.Windows.Forms.Label producerState;
+        private System.Windows.Forms.Label consumerState;
         private System.Windows.Forms.PictureBox pictureBox21;
         private System.Windows.Forms.PictureBox pictureBox22;
         private System.Windows.Forms.PictureBox pictureBox23;
@@ -685,11 +684,6 @@ namespace ProductorConsumidor
         private System.Windows.Forms.PictureBox pictureBox33;
         private System.Windows.Forms.PictureBox pictureBox34;
         private System.Windows.Forms.PictureBox pictureBox35;
-
-        private System.Windows.Forms.Label containerLB;
-        private System.Windows.Forms.Button startBT;
-        private System.Windows.Forms.Label producerState;
-        private System.Windows.Forms.Label consumerState;
     }
 }
 

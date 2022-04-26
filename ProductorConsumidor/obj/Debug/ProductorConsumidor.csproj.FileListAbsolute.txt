@@ -19,3 +19,14 @@ C:\Users\sistemasp\Desktop\Alan\Proyecto USB\Seminario Operativos\Producto-consu
 C:\Users\sistemasp\Desktop\Alan\Proyecto USB\Seminario Operativos\Producto-consumidor\Productor-Consumidor\ProductorConsumidor\obj\Debug\ProductorConsumidor.Properties.Resources.resources
 C:\Users\sistemasp\Desktop\Alan\Proyecto USB\Seminario Operativos\Producto-consumidor\Productor-Consumidor\ProductorConsumidor\obj\Debug\ProductorConsumidor.csproj.GenerateResource.cache
 C:\Users\sistemasp\Desktop\Alan\Proyecto USB\Seminario Operativos\Producto-consumidor\Productor-Consumidor\ProductorConsumidor\obj\Debug\ProductorConsumidor.csproj.CoreCompileInputs.cache
+C:\Users\klenb\Desktop\Seminario sistemas operativos\Productor-Consumidor\ProductorConsumidor\bin\Debug\ProductorConsumidor.exe.config
+C:\Users\klenb\Desktop\Seminario sistemas operativos\Productor-Consumidor\ProductorConsumidor\bin\Debug\ProductorConsumidor.exe
+C:\Users\klenb\Desktop\Seminario sistemas operativos\Productor-Consumidor\ProductorConsumidor\bin\Debug\ProductorConsumidor.pdb
+C:\Users\klenb\Desktop\Seminario sistemas operativos\Productor-Consumidor\ProductorConsumidor\obj\Debug\ProductorConsumidor.csproj.AssemblyReference.cache
+C:\Users\klenb\Desktop\Seminario sistemas operativos\Productor-Consumidor\ProductorConsumidor\obj\Debug\ProductorConsumidor.csproj.SuggestedBindingRedirects.cache
+C:\Users\klenb\Desktop\Seminario sistemas operativos\Productor-Consumidor\ProductorConsumidor\obj\Debug\ProductorConsumidor.Form1.resources
+C:\Users\klenb\Desktop\Seminario sistemas operativos\Productor-Consumidor\ProductorConsumidor\obj\Debug\ProductorConsumidor.Properties.Resources.resources
+C:\Users\klenb\Desktop\Seminario sistemas operativos\Productor-Consumidor\ProductorConsumidor\obj\Debug\ProductorConsumidor.csproj.GenerateResource.cache
+C:\Users\klenb\Desktop\Seminario sistemas operativos\Productor-Consumidor\ProductorConsumidor\obj\Debug\ProductorConsumidor.csproj.CoreCompileInputs.cache
+C:\Users\klenb\Desktop\Seminario sistemas operativos\Productor-Consumidor\ProductorConsumidor\obj\Debug\ProductorConsumidor.exe
+C:\Users\klenb\Desktop\Seminario sistemas operativos\Productor-Consumidor\ProductorConsumidor\obj\Debug\ProductorConsumidor.pdb
